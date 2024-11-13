@@ -22,5 +22,15 @@ public class Test {
 		System.out.println(taro.name);
 		System.out.println(taro.age);
 		
+		taro.name ="鵜木宏好";
+		taro.age = 30;
+		taro.address ="abc@gmail.com";
+		taro.phoneNumber = "12345678";
+		
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+		System.out.println(taro.address);
+		System.out.println(taro.phoneNumber);
+		
 	}
 }
