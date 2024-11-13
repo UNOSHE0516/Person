@@ -27,10 +27,16 @@ public class Test {
 		taro.address ="abc@gmail.com";
 		taro.phoneNumber = "12345678";
 		
+		taro.name ="太郎";
+		
 		System.out.println(taro.name);
 		System.out.println(taro.age);
 		System.out.println(taro.address);
 		System.out.println(taro.phoneNumber);
+		
+		taro.talk();
+		taro.walk();
+		taro.run();
 		
 	}
 }
